@@ -11,29 +11,28 @@ var lista = [
 ]
 
 var mioNome; 
-var eValido = false;
+
 mioNome = prompt("Inserisci il tuo nome");
 console.log(mioNome);
 
+var eValido = false;
 while (eValido === false) {
-  if (mioNome == "") {
+  if (mioNome == "" ) {
     alert("Inserisci un nome!");
     mioNome = prompt("Inserisci il tuo nome");
   } else {
     eValido = true;
   }
 }
-console.log(mioNome);
+console.log("il mio nome è " + mioNome);
 
 var eInvitato = false;
-
 for (var i = 0; i < lista.length; i++) {
   if (lista[i].toLowerCase() === mioNome.toLowerCase()) {
     eInvitato = true;
   }
 }
 
-console.log(eInvitato);
 
 if (eInvitato) {
   console.log("sei invitato!");
