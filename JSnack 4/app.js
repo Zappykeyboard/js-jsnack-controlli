@@ -17,7 +17,8 @@ console.log(mioNome);
 var invitato = false;
 
 for (var i = 0; i < lista.length; i++){
-    if (lista[i.toLowerCase] === mioNome.toLowerCase){
+  
+    if (lista[i].toLowerCase() === mioNome.toLowerCase()){
     invitato = true;
   } 
 }
