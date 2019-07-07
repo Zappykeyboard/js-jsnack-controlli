@@ -17,7 +17,7 @@ console.log(mioNome);
 
 var eValido = false;
 while (eValido === false) {
-  if (mioNome == "" ) {
+  if (mioNome == "" || parseInt(mioNome)) {
     alert("Inserisci un nome!");
     mioNome = prompt("Inserisci il tuo nome");
   } else {
