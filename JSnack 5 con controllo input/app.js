@@ -3,7 +3,7 @@
 var array = [];
 var num;
 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 7; i++) {
   num = parseInt(prompt("inserisci un numero"));
 
   while(isNaN(num)){
