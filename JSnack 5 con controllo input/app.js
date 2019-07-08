@@ -3,11 +3,11 @@
 var array = [];
 var num;
 
-for (var i = 0; i < 7; i++) {
+for (var i = 1; i < 7; i++) {
   num = parseInt(prompt("inserisci un numero"));
 
   while(isNaN(num)){
-    alert("inserisci un numero!");
+    alert("Valore non valido!");
     num = parseInt(prompt("inserisci un numero"));
   }
   if (num % 2 !== 0) {
